@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url(./img/antigua.jpg);
+  background-size: 100% 100%;
+  opacity: 95%;
+
+}
+
+.header {
+  text-align: center;
+  background-color: #882d2d;
+  color: #ffffff;
+  padding: 15px;
+  opacity: 62%;
+}
+
+.principal h1 {
+  margin-top: auto;
+  margin-right: 15px;
+  letter-spacing: 7px;
+  text-shadow: 0 1 2px #9ec2ce;
+  font-family: "Courier New";
+  text-decoration: overline underline;
+  text-align: right;
+  opacity: 70%;
+  margin-left: auto;
+}
+
+#text1 {
+  display: -webkit-inline-box;
+}
+
+#text1 h2 {
+  color: #fffdfd;
+  background-color: rgb(209, 209, 219);
+  font-family: Georgia;
+  text-align: justify;
+  border: 3px solid rgb(158, 35, 35);
+  outline-style: solid;
+  outline-color: rgb(73, 69, 69);
+  outline-width: medium;
+  padding: 22px;
+  width: 290px;
+  margin-left: 30px;
+  margin-right: 100px;
+  background: rgb(4 3 0 / 50%);
+}
+
+.container {
+  display: flex;
+  background-position: center center;
+  margin-top: auto;
+  text-align: center;
+  font-family: 'Courier New';
+  font-size: 40px;
+  color: #4d5b15;
+}
+
+.footer {
+  background-color: #8f2323;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+  opacity: 75%;
+}
+
+
+.boton2 {
+  font-family: 'Courier New';
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #eb923f;
+  border-radius: 35px;
+}
+
+
+.dibujo {
+  background-position: left center;
+  color: hsl(0, 21%, 84%);
+  font-size: 20px;
+  text-decoration: overline underline;
+  margin-right: 150px;
+  background: rgb(4 3 0 / 50%);
+}
+
+
+.soldado {
+  text-align: center;
+  margin-left: 150px;
+  background-position: right center;
+  color: hsl(0, 21%, 84%);
+  font-size: 20px;
+  text-decoration: overline underline;
+  background: rgb(4 3 0 / 50%);
+}
+
+textarea{
+  font-size: larger;
+}

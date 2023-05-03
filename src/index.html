@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>CIFRADO CESAR 📜</h1>
+  </div>
+  <section class="principal" id="principal">
+
+    <h1 class="titulo">¡ HOLA SOY..JULIO CESAR.. BIENVENID@S A MI IMPERIO !. </h1>
+    <div id="text1" class="text1">
+      <h2> Amigos necesito comunicarme de forma secreta con mis aliados , estamos en el campo de batalla les mostrare un
+        metodo de encriptacion "CIFRADO CESAR " claro le pondre mi nombre lee con mucha atencion!!..
+        Mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de
+        cuatro espacios, así que una A en el texto original se convierte en una D en el texto codificado.</h2>
+      <div>
+
+      </div>
+
+      <div class="container">
+        <a id="inicio" href="#">
+          <h6>VAMOS A CIFRAR </h6>
+          <img id="img1" src="img/rule.png" style=" width:320px;">
+        </a>
+
+        <img class="img2" src="img/caesar.png" style="width: 570px;">
+
+      </div>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+  </section>
+
+  <section class="secundaria" id="secundaria" style="display: none;">
+
+    <div style="display: -webkit-inline-box;">
+      <div class="dibujo">
+        <h2>MENSAJE DE CESAR </h2>
+        <img src="img/mens-sf.png" style="width: 380px;"><br>
+        <textarea type="text" id="mensaje" class="cajon1"></textarea><br>
+        <button id="btn2" class="boton2"> CIFRAR</button>
+        <h3 id="cifrado"></h3>
+      </div>
+
+      <div class="soldado">
+        <h2>DESCIFRAR MENSAJE </h2>
+        <img src="img/soldie.png" style="width: 180px;"><br>
+        <button id="btn3" class="boton2">DESCIFRAR </button><br>
+        <textarea type="text" id="resmensaje1" class="cajon2"></textarea><br>
+        <h3 id="descifrado"></h3>
+      </div>
+    </div>
+
+
+  </section>
+  <div class="footer">
+    <p>Copyright &copy;Caesar Cifher -03/05/2023-Tatiana Hernandez Avendaño , todos los derechos reservados.</p>
+  </div>
+  <script type="module" src="./index.js"></script>
+
+</body>
+
+
 </html>

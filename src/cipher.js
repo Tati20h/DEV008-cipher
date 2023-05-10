@@ -34,7 +34,7 @@ const cipher = {
       const indice = letras.indexOf(letraMensaje)
       // si la letra no existe devuelve -1
       if (indice !== -1) {
-        const cifrado = (26 + ((indice - offset)%26)) % 26
+        const cifrado = (26 + ((indice - offset) % 26)) % 26
         resultado += letras[cifrado]
       } else if (letraMensaje === " ") {
         resultado += " "

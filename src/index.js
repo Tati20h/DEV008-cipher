@@ -6,6 +6,11 @@ iniciar.addEventListener("click", function () {
   document.getElementById("secundaria").style.display = "block";
 });
 
+const volver = document.getElementById("volver");
+volver.addEventListener("click", function () {
+  document.getElementById("principal").style.display = "block";
+  document.getElementById("secundaria").style.display = "none";
+});
 //declaro variable donde voy a guardar el mensaje
 let ms
 let mensajeCifrado
@@ -23,7 +28,7 @@ mensaje.addEventListener("input", function (e) {
 const elemento = document.getElementById("cifrado");
 
 btnCifrado.addEventListener("click", function () {
-  mensajeCifrado = cipher.encode(posicion,ms)
+  mensajeCifrado = cipher.encode(posicion, ms)
   desmensaje.value = mensajeCifrado
   elemento.textContent = mensajeCifrado;
   console.log(mensajeCifrado)
@@ -34,6 +39,6 @@ const desCifrado = document.getElementById("btn3");
 const deselemento = document.getElementById("descifrado");
 
 desCifrado.addEventListener("click", function () {
-  const mensajedesCifrado = cipher.decode(posicion,mensajeCifrado)
+  const mensajedesCifrado = cipher.decode(posicion, mensajeCifrado)
   deselemento.textContent = mensajedesCifrado;
 });

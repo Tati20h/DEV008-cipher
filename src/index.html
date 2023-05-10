@@ -6,7 +6,6 @@
   <title>Caesar Cipher</title>
   <link rel="shortcut icon" href="img/logo.png">
   <link rel="stylesheet" href="style.css" />
-
 </head>
 
 <body>
@@ -15,58 +14,55 @@
     <h1>CIFRADO CESAR 📜</h1>
   </div>
   <section class="principal" id="principal">
-
-    <h1 class="titulo">¡ HOLA SOY..JULIO CESAR.. BIENVENID@S A MI IMPERIO !. </h1>
-    <div id="text1" class="text1">
-      <h2> Amigos necesito comunicarme de forma secreta con mis aliados , estamos en el campo de batalla les mostrare un
-        metodo de encriptacion "CIFRADO CESAR " claro le pondre mi nombre lee con mucha atencion!!..
-        Mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de
-        cuatro espacios, así que una A en el texto original se convierte en una D en el texto codificado.</h2>
-      <div>
-
+    <h1>¡ HOLA SOY..JULIO CESAR.. BIENVENID@S A MI IMPERIO !. </h1>
+    <div class="grid-container1">
+      <div id="text1" class="text1">
+        <h2> Amigos necesito comunicarme de forma secreta con mis Aliados , estamos en el campo de batalla les mostrare un
+          metodo de encriptacion "CIFRADO CESAR " claro le pondre mi nombre; lee con mucha atencion!!..
+          Mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de
+          cuatro espacios, así que una ABCD en el texto original se convierte en una DFGH en el texto codificado. VAMOS A CIFRAR DALE  CLICK RULETA </h2>
       </div>
-
       <div class="container">
         <a id="inicio" href="#">
-          <h6>VAMOS A CIFRAR </h6>
-          <img id="img1" src="img/rule.png" style=" width:320px;">
+          <img id="img1" src="img/rule.png">
         </a>
+      </div>
 
-        <img class="img2" src="img/caesar.png" style="width: 570px;">
-
+      <div>
+        <img class="img2" src="img/caesar.png" style="width: 420px">
       </div>
     </div>
-
   </section>
 
   <section class="secundaria" id="secundaria" style="display: none;">
-
-    <div style="display: -webkit-inline-box;">
+    <div class="grid-item">
+      <button id="volver" class="volver">VOLVER AL INICIO</button>
+    </div>
+    <div class="grid-container">
       <div class="dibujo">
         <h2>MENSAJE DE CESAR </h2>
-        <img src="img/mens-sf.png" style="width: 380px;"><br>
+        <img src="img/mens-sf.png" style="width: 358px;"><br>
         <textarea type="text" id="mensaje" class="cajon1"></textarea><br>
-        <button id="btn2" class="boton2"> CIFRAR</button>
+        <button id="btn2" class="boton2"> 🔏CIFRAR 🔐 </button>
         <h3 id="cifrado"></h3>
       </div>
-
       <div class="soldado">
         <h2>DESCIFRAR MENSAJE </h2>
-        <img src="img/soldie.png" style="width: 180px;"><br>
-        <button id="btn3" class="boton2">DESCIFRAR </button><br>
+        <img src="img/soldie.png" style="width: 170px;"><br>
+        <button id="btn3" class="boton2">🔓DESCIFRAR🔓 </button><br>
         <textarea type="text" id="resmensaje1" class="cajon2"></textarea><br>
         <h3 id="descifrado"></h3>
       </div>
     </div>
-
-
   </section>
+
+ 
   <div class="footer">
     <p>Copyright &copy;Caesar Cifher -03/05/2023-Tatiana Hernandez Avendaño , todos los derechos reservados.</p>
   </div>
+
   <script type="module" src="./index.js"></script>
 
 </body>
-
 
 </html>
